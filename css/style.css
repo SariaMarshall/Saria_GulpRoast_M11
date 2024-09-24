@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    background-color: #D98555;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #131D26;
+  }
+  
+  /* Navigation styles */
+  .navbar {
+    border-bottom: 5px solid #FFFFFF;
+  }
+  
+  .navbar-brand img {
+    height: 50px; /* Adjust logo size */
+  }
+  
+  /* Product details styles */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Product Section styles */
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #082B59;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-details img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #131D26;
+  }
+  
+  .product-details h2 {
+    color: #082B59;
+  }
+  
+  .product-details p {
+    color: #59331d;
+    line-height: 1.6;
+  }
+  
+  /* Footer styles */
+  footer {
+    color: white;
+    background-color: #131D26;
+    text-align: center;
+    border-top: 5px solid #FFFFFF;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #D98555;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #BF7A47;
+  }
+  
+  /* Responsive styles */
+  @media all and (max-width: 1200px) {
+    .product-item {
+        width: 45%;
+    }
+  }
+  
+  @media all and (max-width: 744px) {
+    .product-item {
+        width: 100%;
+    }
+  }
